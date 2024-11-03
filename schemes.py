@@ -1,5 +1,3 @@
-# файл schemes.py (аналог schemes.py из Лекции)
-
 from pydantic import BaseModel
 
 
