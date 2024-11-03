@@ -1,8 +1,4 @@
-#  файл: task.py (аналог category из Лекции)
-
 from fastapi import APIRouter
-
-# uvicorn category:app
 
 router = APIRouter(prefix="/task", tags=["task"])
 
