@@ -1,8 +1,4 @@
-#  файл: user.py (аналог category из Лекции)
-
 from fastapi import APIRouter
-
-# uvicorn category:app
 
 router = APIRouter(prefix="/user", tags=["user"])
 
